@@ -1,78 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CAD YSWS Series</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="imgs/favicon.svg" type="image/svg+xml" sizes="any">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hack Club: CAD Series</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="imgs/favicon.svg" type="image/svg+xml" />
 </head>
 <body>
-    <div class="header">
-        <h1>Hack Club: CAD YSWS Series</h1>
-        <p class="header-desc">Learn 3D Modeling through fun, hands-on projects and earn rewards along the way!</p>
-    </div>
-    <a class="banner" href="https://hackclub.com/">
-        <img style="position: absolute; top: 0; left: 10px; border: 0; width: 128px; z-index: 1000;" src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club">
-    </a>
-    <div class="container-wrapper">
-        <div class="box" style="--box-bg: #C76B0F; --box-title: #F6D193; --box-desc: #F6D193;">
-            <img class="box-img" src="./imgs/bakebuild.png" alt="BakeBuild Logo">
-            <div class="box-content">
-                <div class="box-title">Start here: BakeBuild</div>
-                <div class="box-desc"><strong>Design a cookie cutter, get it shipped to you + a cookie!</strong></div>
-                <div class="box-desc">Estimated time: 30-60 minutes</div>
-            </div>
-            <a href="https://bakebuild.hackclub.com" class="box-btn">check it out!</a>
+  <a class="brand-banner" href="https://hackclub.com/" target="_blank" rel="noreferrer">
+    <img src="https://assets.hackclub.com/flag-orpheus-top.svg" alt="Hack Club" />
+  </a>
+
+  <main class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">Hack Club workshops</p>
+      <h1>CAD Series</h1>
+      <p class="hero-copy">Learn 3D Modeling through fun, hands-on projects and earn rewards along the way!</p>
+    </header>
+
+    <section class="timeline" aria-label="CAD workshop roadmap">
+      <article class="card card-start" style="--card-bg: #C76B0F; --card-accent: #F6D193; --card-text: #F6D193;">
+        <img class="card-media" src="./imgs/bakebuild.png" alt="BakeBuild Logo" />
+        <div class="card-body">
+          <div>
+            <p class="card-label">Start here</p>
+            <h2 class="card-title">BakeBuild</h2>
+            <p class="card-copy"><strong>Design a cookie cutter, get it shipped to you + a cookie!</strong></p>
+            <p class="card-meta">Estimated time: 30-60 minutes</p>
+          </div>
+          <div class="card-badges">
+            <span class="reward-tag">$5 & 3D Print</span>
+          </div>
         </div>
-        <div class="arrow">↓</div>
-        <div class="flow-indicator">after that, do...</div>
-        <div class="box" style="--box-bg: #FFA35E; --box-title: #5989A7; --box-desc: #5d5031;">
-            <img class="box-img" src="./imgs/fusering.svg" alt="FuseRing Logo">
-            <div class="box-content">
-                <div class="box-title">Continue here: FuseRing</div>
-                <div class="box-desc"><strong>Design a keyring, get your keyring and a clip for your backpack!</strong></div>
-                <div class="box-desc">Estimated time: 45-60 minutes</div>
-            </div>
-            <a href="https://fusering.hackclub.com/" class="box-btn">check it out!</a>
+        <div class="card-actions">
+          <a class="button button-primary" href="https://bakebuild.hackclub.com" target="_blank" rel="noreferrer">Check it out</a>
+          <a class="button button-secondary" href="https://forms.hackclub.com/t/4PZPHrJacMus" target="_blank" rel="noreferrer">Run a workshop</a>
         </div>
-                <div class="arrow">↓</div>
-        <div class="flow-indicator">or, you can do...</div>
-        <div class="box" style="--box-bg: #341C10; --box-title: #F48D2C; --box-desc: #F48D2C;">
-            <img class="box-img" src="./imgs/enclosure.png" alt="Enclosure Logo">
-            <div class="box-content">
-                <div class="box-title">Enclosure</div>
-                <div class="box-desc"><strong>Make enclosures for your devices or hardware, get it printed + some hardware grant!</strong></div>
-                <div class="box-desc">Estimated time: 1-3 hours</div>
-            </div>
-            <a href="https://enclosure.hackclub.com" class="box-btn">check it out!</a>
+      </article>
+
+      <div class="connector"><span>↓</span><p>after that, do...</p></div>
+
+      <article class="card" style="--card-bg: #FFA35E; --card-accent: #5d5031; --card-text: #5989A7;">
+        <img class="card-media" src="./imgs/fusering.svg" alt="FuseRing Logo" />
+        <div class="card-body">
+          <div>
+            <p class="card-label">Continue here</p>
+            <h2 class="card-title">FuseRing</h2>
+            <p class="card-copy"><strong>Design a keyring, get your keyring and a clip for your backpack!</strong></p>
+            <p class="card-meta">Estimated time:  45-60 minutes</p>
+          </div>
+          <div class="card-badges">
+            <span class="reward-tag">$4 - $8 & 3D Print</span>
+          </div>
         </div>
-        <div class="arrow">↓</div>
-        <div class="flow-indicator">to integrate your project with some hardware, try doing...</div>
-        <div class="box" style="--box-bg: #0e305b; --box-title: #ffffff; --box-desc: white;">
-            <img class="box-img" src="./imgs/squeak.png" alt="Squeak Logo" style="width: auto;">
-            <div class="box-content">
-                <div class="box-title">Squeak</div>
-                <div class="box-desc"><strong>Design your own mouse case, get it printed + parts to build your own mouse! Part of Hack Club Blueprint.</strong></div>
-                <div class="box-desc">Estimated time: 3-5 hours</div>
-            </div>
-            <a href="https://blueprint.hackclub.com/starter-projects/squeak" class="box-btn">check it out!</a>
+        <div class="card-actions">
+          <a class="button button-primary" href="https://fusering.hackclub.com" target="_blank" rel="noreferrer">Check it out</a>
+          <a class="button button-secondary" href="https://forms.hackclub.com/fusering-workshop" target="_blank" rel="noreferrer">Run a workshop</a>
         </div>
-        <div class="arrow">↓</div>
-        <div class="flow-indicator">get everyone involved by doing...</div>
-        <div class="box" style="--box-bg: #b64e07; --box-title: #f3dcc6; --box-desc: #f3dcc6;">
-            <img class="box-img" src="./imgs/construct.png" alt="Construct Logo">
-            <div class="box-content">
-                <div class="box-title">Next Up: Construct</div>
-                <div class="box-desc"><strong>As a group spend 50 hours making CAD projects and get a 3D printer for your club!</strong></div>
-                <div class="box-desc">Estimated time: 50 hours (<i>in total</i>)</div>
-            </div>
-            <a href="https://construct.hackclub.com/dashboard/clubs" class="box-btn">check it out!</a>
+      </article>
+
+      <div class="connector"><span>↓</span><p>or, you can do...</p></div>
+
+      <article class="card" style="--card-bg: #341C10; --card-accent: #F48D2C; --card-text: #F48D2C;">
+        <img class="card-media" src="./imgs/enclosure.png" alt="Enclosure Logo" />
+        <div class="card-body">
+          <div>
+            <p class="card-label"></p>
+            <h2 class="card-title">Enclosure</h2>
+            <p class="card-copy"><strong>Make enclosures for your devices or hardware, get it printed + some hardware grant!</strong></p>
+            <p class="card-meta">Estimated time: 1-3 hours</p>
+          </div>
+          <div class="card-badges">
+            <span class="reward-tag">$5 & 3D Print</span>
+          </div>
         </div>
-    </div>
-    </div>
-    <footer class="footer">
-        <p>Made with a whole bunch of cookies, keyrings, phone cases, and squeaky mice by <a href="https://hackclub.com">Hack Club</a></p>
-    </footer>
+        <div class="card-actions">
+          <a class="button button-primary" href="https://enclosure.hackclub.com" target="_blank" rel="noreferrer">Check it out</a>
+          <a class="button button-secondary" href="https://forms.hackclub.com/enclosure-workshop" target="_blank" rel="noreferrer">Run a workshop</a>
+        </div>
+      </article>
+
+      <div class="connector"><span>↓</span><p>get everyone involved by doing...</p></div>
+
+      <article class="card" style="--card-bg: #b64e07; --card-accent: #f3dcc6; --card-text: #f3dcc6;">
+        <img class="card-media card-media-contain" src="./imgs/construct.png" alt="Flavorless logo" />
+        <div class="card-body">
+          <div>
+            <p class="card-label">Next Up</p>
+            <h2 class="card-title">Construct</h2>
+            <p class="card-copy"><strong>As a group spend 50 hours making CAD projects and get a 3D printer for your club!</strong></p>
+            <p class="card-meta">Time: 50 hours <i>(in total)<i></i></p>
+          </div>
+        </div>
+        <div class="card-actions">
+          <a class="button button-primary" href=https://construct.hackclub.com/dashboard/clubs" target="_blank" rel="noreferrer">Check it out</a>
+        </div>
+      </article>
+
+    <section class="fulfillment" aria-labelledby="fulfillment-title">
+      <h2 id="fulfillment-title">How do I receive my grant & Print?</h2>
+      <div class="fulfillment-grid">
+        <article class="fulfillment-item">
+          <div class="fulfillment-icon">🏦</div>
+          <div>
+            <h3>HCB Organization</h3>
+            <p>We transfer the money to your club's HCB organization.</p>
+          </div>
+        </article>
+        <article class="fulfillment-item">
+          <div class="fulfillment-icon">💳</div>
+          <div>
+            <h3>Virtual card</h3>
+            <p>We issue a virtual card grant you can use online or in person with Apple Pay or Google Pay.</p>
+          </div>
+        </article>
+        <article class="fulfillment-item">
+          <div class="fulfillment-icon">📋</div>
+          <div>
+            <h3>Reimbursement</h3>
+            <p>Submit receipts for purchases you've already made, and we'll reimburse you.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="fulfillment-note">
+        <h3>Getting my Print</h3>
+        <p>Hack Club HQ will print out your design and ship it to your leader, or, you can self print at home.</p>
+      </div>
+  </main>
+
+  <footer class="footer">
+    <p>Made with a ridiculous amount of Boba, Creemees with sprinkles, Hamburgers, Waffles, Popcorn, and a little more boba by <a href="https://hackclub.com" target="_blank" rel="noreferrer">Hack Club</a>.</p>
+  </footer>
 </body>
 </html>
